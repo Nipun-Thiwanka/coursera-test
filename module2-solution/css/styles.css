@@ -12,8 +12,7 @@
   }
   
   header {
-    background-color: #333;
-    color: white;
+    color: black;
     padding: 20px;
     text-align: center;
   }
@@ -36,13 +35,13 @@
     margin-bottom: 20px;
     position: relative;
     border: 1px solid black;
-    background-color: #ddd;
+    background-color: #999999;
     font-size: 1rem;
   }
   
   .food-section p {
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 16px;
   }
   
@@ -50,11 +49,22 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #333;
     color: white;
     padding: 10px;
     font-size: 1.25rem;
     border: 1px solid black;
+  }
+
+  #food-1 {
+    background-color: #D59898;
+  }
+
+  #food-2 {
+    background-color: #C14543;
+  }
+
+  #food-3 {
+    background-color: #E5D198;
   }
   
   @media screen and (max-width: 991px) {
